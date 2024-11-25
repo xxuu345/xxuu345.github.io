@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>書籍介紹</title>
+    <style>
+        /* 整體容器設定 */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        /* 左右兩個 DIV 的共同樣式 */
+        .book-div {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        /* 書籍標題樣式 */
+        .book-title {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #666;
+            padding-bottom: 10px;
+        }
+
+        /* 書籍內容樣式 */
+        .book-content {
+            line-height: 1.6;
+            color: #444;
+        }
+
+        /* 書籍圖片樣式 */
+        .book-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 左側書籍介紹 -->
+        <div class="book-div">
+            <h2 class="book-title">哈利波特：神秘的魔法石</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/zh/3/3c/Hp1tw.jpg&quot; alt="哈利波特封面" class="book-image">
+            <div class="book-content">
+                <p>《哈利波特：神秘的魔法石》是J.K.羅琳的奇幻文學作品，講述了一個年輕巫師的冒險故事。在11歲生日時，哈利發現自己是一個巫師，並被錄取到霍格華茲魔法學校就讀。</p>
+                <p>在學校裡，他結識了終身摯友榮恩和妙麗，一同揭開學校裡的神秘面紗，並與邪惡的佛地魔展開對抗。這是一個關於友情、勇氣和成長的精彩故事。</p>
+            </div>
+        </div>
+     
+
+        <!-- 右側書籍介紹 -->
+        <div class="book-div">
+            <h2 class="book-title">魔戒首部曲：魔戒現身</h2>
+            <img src="/api/placeholder/300/400" alt="魔戒封面" class="book-image">
+            <div class="book-content">
+                <p>《魔戒》是托爾金創作的史詩奇幻小說，故事從霍比特人佛羅多繼承了一枚神秘戒指開始。這枚戒指是由邪惡的魔王索倫所打造，具有強大的魔力。</p>
+                <p>在甘道夫的指引下，佛羅多必須展開一段危險的旅程，將魔戒摧毀。這是一個關於善與惡之間永恆鬥爭的傳奇故事，充滿了冒險、友情與犧牲。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
